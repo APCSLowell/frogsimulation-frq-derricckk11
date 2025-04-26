@@ -22,12 +22,13 @@ public class FrogSimulation
 			if(pos >= goalDistance){
 
 				return true;
-			} 
+			} // end of if
 
-			return false;
-		}
+		} // end of for loop
 
-	}
+		return false;
+
+	} //end of simulate()
 	
 	public double runSimulations(int num)
 	{ 
